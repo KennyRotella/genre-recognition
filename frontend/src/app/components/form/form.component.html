@@ -1,0 +1,12 @@
+<!--form.component.html-->
+<div class=form>
+    <input type="file" id="brano" (change)="classify($event.target.files)"
+        accept=".mp3" [appDisableInput]="classifierService.inputDisabled">
+    <label  for="brano">
+        <span>SELEZIONA UN BRANO MP3</span>
+    </label>
+    <h3>Elenco dei brani selezionati</h3>
+    <app-song-list 
+        [songList]="songList">
+    </app-song-list>
+</div>

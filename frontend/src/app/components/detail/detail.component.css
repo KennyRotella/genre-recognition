@@ -1,0 +1,25 @@
+.center {
+    display: block;
+    margin: 0 auto;
+    background-color: #21b1c4;
+    border-radius: 1rem;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: background-color 0.3s;
+    transition: scale 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+    border-style: none;
+}
+
+button:hover{
+    background-color: #5ccad8;
+    scale: 1.02;
+}

@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: url('sfondo.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}

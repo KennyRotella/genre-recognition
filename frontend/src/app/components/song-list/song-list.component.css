@@ -1,0 +1,28 @@
+.elencoBrani{
+    display: block;
+    background-color: #21b1c4;
+    border-radius: 1rem;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0px;
+    margin: 15px 15px 0px 15px;
+    transition: background-color 0.3s;
+    transition: scale 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .elencoBrani:hover{
+    background-color: #5ccad8;
+    scale: 1.02;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }

@@ -1,0 +1,6 @@
+<!--song-list.component.html-->
+<div *ngFor="let elem of songList">
+    <a routerLink="/detail/{{elem.nome}}" class="elencoBrani">
+        <span>{{elem.nome}}</span>
+    </a>
+</div>
